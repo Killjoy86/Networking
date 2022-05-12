@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Killjoy86/Domain",
       "state" : {
-        "branch" : "main",
-        "revision" : "1f0506ac7adb1135780111082a515b8e858208c7"
+        "revision" : "1f0506ac7adb1135780111082a515b8e858208c7",
+        "version" : "1.0.0"
       }
     },
     {
