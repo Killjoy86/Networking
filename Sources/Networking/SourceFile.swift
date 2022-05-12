@@ -12,7 +12,7 @@ class SourceFile {
     var resource: String
     var pathExtension: String
     var bundle = Bundle.module
-    
+
     init(resource: String, withExtension pathExtension: String) {
         self.resource = resource
         self.pathExtension = pathExtension
