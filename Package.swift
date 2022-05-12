@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "Networking", targets: ["Networking"]),
     ],
     dependencies: [
-        .package(path: "/Users/roman.syrota/Documents/CleanArchitecture/Domain"),
+        .package(url: "https://github.com/Killjoy86/Domain", branch: "main"),
         .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0")),
     ],
     targets: [
