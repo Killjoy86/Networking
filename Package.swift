@@ -23,9 +23,9 @@ let package = Package(
                 .product(name: "Moya", package: "Moya"),
                 .product(name: "CombineMoya", package: "Moya"),
             ],
-            exclude: [
-                "Mocks/character.json",
-                "Mocks/characters.json"
+            resources: [
+                .process("Mocks/character.json"),
+                .process("Mocks/characters.json"),
             ]
         ),
         .testTarget(name: "NetworkingTests", dependencies: ["Networking"]),

@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct SourceFile {
+class SourceFile {
     
     var resource: String
     var pathExtension: String
-    var bundle = Bundle(identifier: "com.swiftui.Networking")!
+    var bundle = Bundle.module
     
     init(resource: String, withExtension pathExtension: String) {
         self.resource = resource
