@@ -59,7 +59,10 @@ extension AppAPI: Moya.TargetType, AccessTokenAuthorizable {
     }
     
     public var headers: [String : String]? {
-        ["Content-Type": "application/json"]
+        switch self {
+        default:
+            return ["Content-Type": "application/json"]
+        }
     }
     
     public var authorizationType: AuthorizationType? {
